@@ -3,6 +3,9 @@ import pkg from './package'
 
 export default {
   mode: 'spa',
+  router: {
+    base: '/blog/'
+  },
 
   /*
   ** Headers of the page
